@@ -1,0 +1,50 @@
+.main-container{
+background:linear-gradient(to top, #f5f6fa 50%,#3498db 50%);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.floating-container{
+min-width: 60%;
+padding: 20px;
+border-radius:5px ;
+background: #fff;
+box-shadow: 2px 5px 10px #ccc;
+
+
+}
+.float-centre
+{
+	text-align: center;
+}
+
+.pcard-icon{
+filter:  invert(.5) sepia(1) saturate(28) hue-rotate(204deg);
+height: 100px;
+margin-top: 20px;
+margin-bottom:50px;
+}
+
+.pcard-header{
+	font-weight:700 ;
+	font-size:17px ;
+	font-family:Open Sans, sans-serif ;
+	color:#777 ;
+	letter-spacing: 1px;
+}
+.pcard-text{
+	font-weight:500 ;
+	font-size:10px ;
+	font-family:Montserrat, sans-serif;
+	color:#3498db ;
+
+}
+.pcard-price {
+	font-size: 32px;
+	 font-family: Montserrat, sans-serif;
+	 	 color:#3498db;
+	 	 font-weight:700;
+letter-spacing: 2px;
+
+}
